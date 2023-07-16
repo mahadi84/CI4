@@ -1,2 +1,4 @@
 NEW XAMPP SERVER:
-Go to php.ini:  ;extension=intl (delete semi-colon before like theis extension=intl) 
+Go to php.ini:  ;extension=intl (delete semi-colon before like this extension=intl)
+
+
