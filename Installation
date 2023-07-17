@@ -1,4 +1,25 @@
 NEW XAMPP SERVER:
 Go to php.ini:  ;extension=intl (delete semi-colon before like this extension=intl)
 
+CHANGE to .env FILE:
+--------------------
+CI_ENVIRONMENT = development (#production)
+app.baseURL = 'http://localhost/ci4/'
+
+database.default.hostname = localhost
+database.default.database = ci4
+database.default.username = root
+database.default.password = 
+
+
+
+CHECK DATABASE CONNECTION:
+--------------------------
+// $db = \Config\Database::connect();
+                            // if ($db->initialize()){
+                            //    echo  "We have a connection";
+                            // } else {
+                            //     echo 'NO Connections';
+                            // }
+
 
